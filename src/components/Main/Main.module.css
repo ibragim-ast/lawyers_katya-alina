@@ -1,0 +1,113 @@
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 385px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+}
+
+.katya {
+  position: absolute;
+  top: 44px;
+  left: 104px;
+  width: 469px;
+  height: 462px;
+  background-image: url("../../assets/images/katya.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 0;
+}
+
+.alina {
+  position: absolute;
+  top: 40px;
+  right: 136px;
+  width: 381px;
+  height: 386px;
+  background-image: url("../../assets/images/alina.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 0;
+}
+
+.biography {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  height: 246px;
+  background-color: #7c7c7c;
+  margin-top: 25px;
+}
+
+.text_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: left;
+  margin-top: 26px;
+}
+
+.text_block_left {
+  margin-left: 67px;
+}
+
+.text_block_right {
+  margin-right: 67px;
+}
+
+.logo {
+  width: 117px;
+  height: 117px;
+  margin-top: 30px;
+}
+
+.logo_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_text {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.profession {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+.name {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.description {
+  max-width: 423px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  text-indent: 10px;
+  padding-bottom: 20px;
+}
+
+.quote {
+  max-width: 423px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+}

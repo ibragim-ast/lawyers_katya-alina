@@ -1,0 +1,43 @@
+.card {
+  width: 393px;
+  height: 494px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.25);
+  padding: 18px;
+}
+
+.card:nth-last-child(-n + 3) {
+  height: auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #444;
+}
+
+.image {
+  width: 112px;
+  height: 105px;
+  margin: 22px 0 15px;
+}
+
+.list {
+  list-style-image: url("../../assets/images/list_marker.svg");
+  margin-left: 8px;
+  margin-right: 6px;
+}
+
+.list_item {
+  margin-bottom: 2px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #444;
+  text-align: left;
+  line-height: 1.11;
+  margin-bottom: 3px;
+}
