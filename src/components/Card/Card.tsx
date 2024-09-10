@@ -18,10 +18,12 @@ const Card: React.FC<CardProps> = ({ title, image, list }) => {
           </li>
         ))}
       </ul>
-      <button className={styles.button}>Консультация</button>
-      <a className={styles.link} href="#">
-        Подробнее
-      </a>
+      <div className={styles.buttonContainer}>
+        <button className={styles.button}>Консультация</button>
+        <a className={styles.link} href="#">
+          Подробнее
+        </a>
+      </div>
     </div>
   );
 };

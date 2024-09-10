@@ -1,4 +1,5 @@
 .services {
+  position: relative;
   margin-top: 54px;
 }
 
@@ -14,4 +15,67 @@
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 35px;
+}
+
+.whatsapp {
+  z-index: 1;
+  position: absolute;
+  top: -24px;
+  right: 24px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.whatsapp img {
+  width: 45.5px;
+  height: 45.5px;
+  object-fit: contain;
+  margin-top: 2px;
+}
+
+.whatsapp::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: #48c162;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.telegram {
+  z-index: 1;
+  position: absolute;
+  top: 42px;
+  right: 24px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.telegram img {
+  width: 35.79px;
+  height: 30.88px;
+  object-fit: contain;
+  margin-top: 13px;
+  margin-right: 7px;
+}
+
+.telegram::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: #27acc9;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
